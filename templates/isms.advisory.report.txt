@@ -1,0 +1,48 @@
+SUBJECT: <neglect of ....>
+
+Body:
+
+Description: short "high level" text of issue
+
+
+impact: multiple of 
+
+1. Financial Areas
+Accounting: Deals with financial record-keeping, balance sheets, income statements, and auditing.
+Financial Planning and Analysis (FP&A): Focuses on budgeting, forecasting, and financial strategy.
+Treasury: Manages the organization’s liquidity, investments, and risk related to financial markets.
+Taxation: Deals with compliance, tax planning, and strategies for minimizing tax liabilities.
+Investment Management: Focuses on managing company investments, portfolio strategies, and asset allocation.
+Internal Controls: Ensures financial processes and reporting are compliant and accurate.
+
+2. Security Areas
+Cybersecurity: Protects systems, networks, and data from cyber threats, including hackers and data breaches.
+Physical Security: Focuses on protecting employees, assets, and facilities from physical threats (e.g., theft, vandalism).
+Information Security: Manages the integrity, confidentiality, and availability of information within the organization.
+Risk Management: Identifies, assesses, and mitigates risks across all areas, including financial, operational, and security-related risks.
+Compliance and Governance: Ensures that the organization adheres to laws, regulations, and standards (e.g., GDPR, HIPAA).
+
+3. Cost-Effectiveness Areas
+Cost Management: Focuses on controlling expenses, budgeting, and maximizing profitability.
+Procurement and Supply Chain Management: Manages purchasing decisions and the flow of goods/services to optimize cost efficiency.
+Operations Efficiency: Aims to streamline business processes to minimize waste, improve productivity, and reduce costs.
+Lean Management: Focuses on eliminating waste and improving processes to increase value and reduce costs.
+Outsourcing and Offshoring: Identifies opportunities to reduce costs by outsourcing or offshoring specific functions or services.
+
+4. Other Key Areas
+Human Resources (HR): Deals with talent acquisition, employee management, training, and development.
+Marketing and Branding: Focuses on promoting products or services, market research, advertising, and public relations.
+Sales and Business Development: Responsible for driving revenue through customer acquisition and relationship management.
+Legal and Compliance: Ensures adherence to laws, handles contracts, intellectual property, and legal disputes.
+Customer Service and Support: Manages customer satisfaction and problem resolution.
+Product Development: Focuses on designing, creating, and improving products or services.
+Technology and IT: Manages software, hardware, and technological infrastructure within the company.
+Supply Chain and Logistics: Deals with the flow of goods, services, and information from suppliers to customers.
+
+
+suggested responsibility level for delegation: one of  
+C-Level (Executive Leadership)
+Senior Management (VPs and Directors)
+Middle Management
+Lower Management (Entry-Level Supervisors)
+Non-Management Roles
