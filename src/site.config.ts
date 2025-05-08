@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
 		- The link value found in src/components/layout/Header.astro L:35
 		- In the footer found in src/components/layout/Footer.astro L:12
 	*/
-	title: "Astro Cactus",
+	title: "Nino Martinez Wael",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
 	url: "https://nmwael.github.io",
 };
@@ -40,10 +40,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/about/",
 		title: "About",
 	},
-	{
-		path: "/posts/",
-		title: "Blog",
-	},
+	// {
+	// 	path: "/posts/",
+	// 	title: "Blog",
+	// },
 	{
 		path: "/notes/",
 		title: "Notes",
@@ -76,6 +76,6 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		return `[data-theme="${theme.name}"]`;
 	},
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
+	themes: ["vitesse-black","dracula"],
 	useThemedScrollbars: false,
 };
