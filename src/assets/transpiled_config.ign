@@ -1,0 +1,41 @@
+{
+  "ignition": {
+    "version": "3.1.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIWiVh70HA7zk3Y+AcXz3sRmAaOP1gUDvidWpqXivoiXm24669@W7N12083"
+        ]
+      },
+      {
+        "name": "root",
+        "sshAuthorizedKeys": [
+          "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIWiVh70HA7zk3Y+AcXz3sRmAaOP1gUDvidWpqXivoiXm24669@W7N12083"
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "overwrite": true,
+        "path": "/etc/hostname",
+        "contents": {
+          "source": "data:,podman-box"
+        },
+        "mode": 420
+      }
+    ]
+  },
+  "systemd": {
+    "units": [
+      {
+        "enabled": true,
+        "name": "podman.socket"
+      }
+    ]
+  }
+}

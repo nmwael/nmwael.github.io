@@ -1,0 +1,21 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIWiVh70HA7zk3Y+AcXz3sRmAaOP1gUDvidWpqXivoiXm24669@W7N12083
+    - name: root
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIWiVh70HA7zk3Y+AcXz3sRmAaOP1gUDvidWpqXivoiXm24669@W7N12083
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 420
+      overwrite: true
+      contents:
+        source: 'data:,podman-box'
+systemd:
+  units:
+    - name: podman.socket
+      enabled: true	
