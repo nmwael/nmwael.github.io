@@ -4,6 +4,15 @@
 	"name": "Alpine",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:4-24",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"astro-build.astro-vscode",
+				"unifiedjs.vscode-mdx",
+				"ms-vscode-remote.remote-containers"
+			]
+		}
+	},
 	// "features": {
 	// 	"ghcr.io/devcontainers/features/node:1": {
 	// 		"nodeGypDependencies": true,
@@ -21,7 +30,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": ["curl -fsSL https://d2lang.com/install.sh | sh -s --", "pnpm install"]
 
 	// Configure tool-specific properties.
 	// "customizations": {},
