@@ -22,6 +22,7 @@ import rehypeExternalLinks from "rehype-external-links";
 import rehypeUnwrapImages from "rehype-unwrap-images";
 
 import d2 from "astro-d2";
+import mermaid from 'astro-mermaid';
 
 // https://astro.build/config
 export default defineConfig({
@@ -62,7 +63,13 @@ export default defineConfig({
             insertThemeColorMeta: false,
             insertManifestLink: false,
         },
-		}), d2()],
+		}), d2(),   mermaid({
+      theme: 'forest',
+      autoTheme: true,
+      mermaidConfig: {
+        look: 'handDrawn'
+      }
+    })],
     markdown: {
         rehypePlugins: [
             rehypeHeadingIds,
